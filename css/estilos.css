@@ -36,7 +36,7 @@ header {
 }
 
 .logo h1 b{
-    color: #46a2fd;
+    color: #bb7d09;
     /* font-family: 'Indie Flower', cursive; */
 }
 
@@ -74,8 +74,8 @@ header {
 } */
 
 .menu nav ul li a{
-    color: #777777;
-    font-size: 18px;
+    color: #2b2929;
+    font-size: 21px;
     transition: color 300ms;
 }
 
@@ -167,7 +167,7 @@ header {
 .container-info-cover h1{
     font-size: 60px;
     font-weight: 500;
-    color: rgb(45, 68, 172);
+    color: rgb(245, 243, 241);
     margin-bottom: 20px;
 }
 
@@ -223,6 +223,50 @@ article p{
 article img{
     width: 100%;
     margin-top: 20px;
+}
+
+/* Tabla de Cursos */
+
+#main-container{
+    margin:150px auto;
+    width: 800px;
+}
+
+table{
+    background-color:#a2a2a2;
+    text-align: left;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td{
+    padding: 20px;
+    font-size: 19px;
+}
+
+thead{
+    background-color: #246355;
+    border-bottom: solid 5px #0F362D;
+    color: white;
+}
+
+tr:nth-child(even){
+    background-color: #ddd;
+}
+
+tr:hover td{
+    background-color: #369681;
+    color: white;
+}
+
+.h1-cursos{
+    background-color: #0F362D;
+}
+
+.subtitle{
+    padding-top: 5%;
+    margin-bottom: -5%;
+    margin-left: 28%;
 }
 
 /* Aside de los articulos relacionados */
@@ -434,3 +478,64 @@ article img{
         flex-wrap: wrap;
     }
 }
+
+body {
+    font-family: arial;
+    background-image: url('bg.png');
+  }
+  
+  .form-login {
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+  }
+  
+  .form-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+  }
+  
+  .controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .buttons {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+  }
+  
+  .form-login p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+  }
+  
+  .form-login a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-login a:hover {
+    text-decoration: underline;
+  }
