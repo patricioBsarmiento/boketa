@@ -124,7 +124,7 @@ header {
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(../img/Gas.jpg); 
+    background-image: url(../img/959.jpg); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -135,7 +135,7 @@ header {
     height: 500px;
     position: relative;
     margin-top: 80px;
-    background-image: url(../img/-computadora-portatil.jpg); 
+    background-image: url(../img/cu1.jpg); 
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -167,7 +167,7 @@ header {
 .container-info-cover h1{
     font-size: 60px;
     font-weight: 500;
-    color: rgb(245, 243, 241);
+    color: #bb7d09;
     margin-bottom: 20px;
 }
 
